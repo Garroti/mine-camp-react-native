@@ -76,7 +76,7 @@ export default class App extends Component {
 
   render(){
     return (
-      <View styles={ styles.container }>
+      <View style={ styles.container }>
         <LevelSelection 
           isVisible={ this.state.showLevelSelection } 
           onLevelSelected={ this.onLevelSelected } 
